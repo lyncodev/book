@@ -77,5 +77,5 @@ Jtwig rendering pipeline starts with parsing the resource into Jtwig AST (Abstra
 </p>
 
 <p style="text-align: justify;">
-This AST is then combined with the model to generate the final output. At this stage the content is escaped based on what was defined by the template (using <code>autoescape</code> tag, <code>espace</code> or <code>raw</code> functions).
+This AST is then combined with the model to generate the final output. At this stage the content is escaped based on what was defined by the template (using <code>autoescape</code> tag, <code>escape</code> or <code>raw</code> functions).
 </p>
